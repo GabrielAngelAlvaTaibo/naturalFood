@@ -103,6 +103,7 @@ main .preguntasFrecuentes .subtituloPS h3 {
   font-size: 65px;
   font-weight: 400;
   font-style: oblique;
+  text-decoration: underline;
 }
 main .contVacio3 {
   background-image: url(../img/bistro-2594762_1920.jpg);
@@ -476,8 +477,11 @@ main .contVacio4 {
   header .header .aviso a {
     font-size: 15px;
   }
+  main .preguntasFrecuentes .subtituloPS h3 {
+    font-size: 25px;
+  }
   main .preguntasFrecuentes .preguntasFrecuentes1, main .preguntasFrecuentes .preguntasFrecuentes2, main .preguntasFrecuentes .preguntasFrecuentes3 {
-    padding: 10px 10px 0 10px;
+    padding: 15px 10px 0 10px;
   }
   footer .footerReserva h3 {
     font-size: 30px;
