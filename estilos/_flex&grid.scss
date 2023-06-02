@@ -1,0 +1,181 @@
+.header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .aviso{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.mainPresentacion{
+    display: grid;
+    grid-template-areas: 
+    "presentacionPrimero presentacionSegundo"
+    "presentacionPrimero presentacionSegundo"
+    "presentacionPrimero presentacionTercero";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,  1fr);
+        .presentacionPrimero{
+            grid-area: presentacionPrimero;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 10% 0 0 10%;
+
+        }
+        .presentacionSegundo{
+            grid-area: presentacionSegundo;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-bottom: 10%;
+        }
+        .presentacionTercero{
+        grid-area: presentacionTercero;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-top: 1%;
+        padding-right: 1%;
+        border-top: 3px solid white;
+        text-align: right;
+        }
+}
+.preguntasFrecuentes{
+    display: grid;
+    grid-template-areas: 
+    "subtituloPS subtituloPS subtituloPS"
+    "preguntasFrecuentes1 preguntasFrecuentes2 preguntasFrecuentes3"
+    "preguntasFrecuentes1 preguntasFrecuentes2 preguntasFrecuentes3";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    .subtituloPS{
+        grid-area: subtituloPS;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .preguntasFrecuentes1{
+        grid-area: preguntasFrecuentes1;
+        
+    }
+    .preguntasFrecuentes2{
+        grid-area: preguntasFrecuentes2;
+    }
+    .preguntasFrecuentes3{
+        grid-area: preguntasFrecuentes3;        
+    }
+    .preguntasFrecuentes1, .preguntasFrecuentes2, .preguntasFrecuentes3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 20%;
+    }
+    h4{
+        font-size: 20px;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+.mainMenus{
+    display: grid;
+    grid-template-areas: 
+    "subtituloMenus menuImagen"
+    "menu1 menuImagen"
+    "linea menuImagen"
+    "menu2 menuImagen";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    .subtituloMenus{
+        grid-area: subtituloMenus;
+        margin: 10%;
+    }
+    .menu1{
+        grid-area: menu1;
+    }
+    .linea{
+        grid-area: linea;
+        height: 1px;
+        background-color: rgb(77, 32, 32);
+        margin-left: 30px;
+    }
+    .menu2{
+        grid-area: menu2;
+    }
+    .menuImagen{
+        grid-area: menuImagen;
+        padding: 10%;
+        img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .menu1, .menu2{
+        display: grid;
+        grid-template-areas: 
+        "h4 h4 a"
+        "p p a";
+        align-content: center;
+        margin-bottom: 20%;
+        h4{
+            grid-area: h4;
+            margin-left: 10%;
+        }
+        p{
+            grid-area: p;
+            margin-left: 15%;
+        }
+        a{
+            grid-area: a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+.footerReserva{
+    display: grid;
+    grid-template-areas: 
+    "footerSubtitulo footerSubtitulo"
+    "footerLorem ."
+    "footerLorem ."
+    "redes .";
+    grid-template-columns: repeat(2, ifr);
+    grid-template-rows: repeat(3, 1fr);
+    .footerSubtitulo{
+        grid-area: footerSubtitulo;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin: 0 15% 5% 0;
+        text-shadow: 2px 2px 2px black;
+    }
+    .footerLorem{
+        grid-area: footerLorem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 45%;
+    }
+    .redes{
+        grid-area: redes;
+        margin-left: 10%;
+    }
+}

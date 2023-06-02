@@ -1,0 +1,164 @@
+@media screen and (max-width: 1024px)  {
+    main{
+        .presentacionPrimero{
+            h3{
+                font-size: 65px;
+            }        
+        }
+        .preguntasFrecuentes{
+            .subtituloPS{
+                h3{
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    main{
+        .presentacionPrimero{
+            h3{
+                font-size: 45px;
+            }
+        }
+        .preguntasFrecuentes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .subtituloPS{
+                text-align: center;
+            }
+            .preguntasFrecuentes1, .preguntasFrecuentes2, .preguntasFrecuentes3{
+                margin: 0;
+                padding: 60px 10px 0 10px;
+            }
+        }
+        .mainMenus{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .menu1, .menu2{
+                width: 100%;
+                margin-right: 5%;
+                margin-bottom: 0;
+            }
+            .menu2{
+                margin-top: 5%;
+            }
+            .linea{
+                opacity: 0;
+            }
+            .menuImagen{
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+        }
+    }
+    footer{
+        .footerReserva{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .footerSubtitulo, .redes{
+                margin: 0;
+            }
+            .footerLorem{
+                padding: 30px 10px 0 10px;
+                text-align: center;
+                a{
+                    margin-right: 0;
+                }
+            }
+            .redes{
+                padding-top: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    header{
+        .header{ 
+            .titulo{                
+                h1{
+                    font-size: 100px;
+                }
+            }
+            .aviso{
+                text-align: center;
+                margin: 0.5rem;
+                padding: 0.5rem;
+            }
+        }        
+    }
+    main{
+        .mainPresentacion{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .presentacionPrimero{
+                margin-right: 25%;
+                margin-bottom: 65%;
+                h3{
+                    font-size: 30px;
+                }
+            }
+            .presentacionSegundo, .presentacionTercero{
+                margin: 0;
+                text-align: center;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            .presentacionTercero{
+                margin-bottom: 20%;
+            }
+        }
+    }
+    .footerReserva{
+        h3{
+            font-size: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    header{
+        .header{ 
+            .titulo{                
+                h1{
+                    font-size: 60px;
+                }
+            }
+            .aviso{
+                padding: 5% 0;
+                p{
+                    font-size: 17px;
+                }
+                a{
+                    font-size: 15px;
+                }                
+            }
+        }        
+    }
+    main{
+        .preguntasFrecuentes{
+            .preguntasFrecuentes1, .preguntasFrecuentes2, .preguntasFrecuentes3{
+                padding: 10px 10px 0 10px;
+            }
+        }
+    }
+    footer{
+        .footerReserva{
+            h3{
+                font-size: 30px;
+            }
+            .footerLorem, .redes{
+                margin-top: 30%;
+            }
+        }
+    }
+}

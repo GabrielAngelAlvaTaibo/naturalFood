@@ -1,0 +1,95 @@
+main{
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    color: white;
+    .contVacio1{
+        background-image: url(../img/lHotel-de-Ville-Crissier-Suiza.webp);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height: 100vh;
+    }
+    .mainPresentacion{
+        background-color: rgb(134, 0, 0);
+        height: 100vh;
+        h3{
+            font-size: 85px;
+            font-style: italic;
+            font-weight: 100;
+        }
+        .presentacionSegundo, .presentacionTercero{
+            margin-right: 10%;
+            font-size: 17px;
+        }
+    }
+    .contVacio2{
+        background-image: url(../img/THG_Jade_03_restaurantes_background_3600x1800px_b8206c4c21.jpg);
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .preguntasFrecuentes{
+        width: 100%;
+        height: 100vh;
+        background: burlywood;
+        color: rgb(77, 32, 32);
+        .subtituloPS{
+            
+            font-family: 'Work Sans', sans-serif;
+            h3{
+                font-size: 65px;
+                font-weight: 400;
+                font-style: oblique;
+            }
+        }
+    }
+    .contVacio3{
+        background-image: url(../img/bistro-2594762_1920.jpg);
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .mainMenus{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        color: rgb(77, 32, 32);
+        h3{
+            font-size: 60px;
+        }
+        h4{
+            font-size: 25px;
+        }
+        p{
+            font-size: 20px;
+        }
+        a{
+            font-family: 'Work Sans', sans-serif;
+            text-decoration: none;
+            list-style-type: none;
+            color: rgb(77, 32, 32);
+            border: 3px solid rgb(77, 32, 32);
+            transition: all 1s;
+        }
+        a:hover{
+            color: white;
+            background-color: rgb(102, 21, 21);
+        }
+        img{
+            border: 3px solid rgb(77, 32, 32);
+        }
+    }
+    .contVacio4{
+        background-image: url(../img/-mg-8696_7_144627-1557499769.webp);
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+}

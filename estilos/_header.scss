@@ -1,0 +1,52 @@
+header{
+    background-image: url(.././img/section_2_health_eating_at_restaurants.jpeg);
+    background-position: center;
+    height: 100vh;
+    color: aliceblue;
+    .header{        
+        font-family: 'Work Sans', sans-serif;
+        .titulo{
+        position: relative;        
+            h1{
+                font-size: 150px;
+                font-weight: 600;
+            }
+        }
+        .aviso{
+            --webkit-box-shadow: inset 5px 5px 50px 50px rgba(0,0,0,0.52); 
+            box-shadow: inset 5px 5px 50px 50px rgba(0,0,0,0.52);
+            color: white;
+            height: 200px;
+            padding: 1%;
+            
+            h2{
+                font-size: 35px;
+                margin-bottom: 15px;
+                font-weight: 100;
+            }
+            p{
+                font-family: 'Playfair Display', serif,;
+                font-weight: 100;
+                font-size: 25px;                
+                font-style: italic;
+                text-shadow: 5px 5px 5px black;
+            }
+            .reserva{
+                text-decoration: none;
+                list-style-type: none;
+                background-color: white;
+                color: red;
+                padding-top: 3%;
+                padding-left: 25%;
+                padding-bottom: 3%;
+                padding-right: 25%;
+                margin-top: 40px;
+                transition: all 1s;
+            }
+            .reserva:hover{
+                color: white;
+                background-color: red;
+            }
+        }        
+    }    
+}
