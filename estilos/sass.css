@@ -71,7 +71,8 @@ main .contVacio1 {
 }
 main .mainPresentacion {
   background-color: rgb(134, 0, 0);
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 main .mainPresentacion h3 {
   font-size: 85px;
@@ -92,7 +93,8 @@ main .contVacio2 {
 }
 main .preguntasFrecuentes {
   width: 100%;
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
   background: burlywood;
   color: rgb(77, 32, 32);
 }
@@ -153,7 +155,8 @@ main .contVacio4 {
 }
 
 .footerReserva {
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
   color: white;
   background-image: url(../img/dark-canvas.gif);
   font-family: "Playfair Display", serif;
@@ -393,6 +396,8 @@ main .contVacio4 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   main .mainMenus .menu1, main .mainMenus .menu2 {
     width: 100%;
@@ -408,6 +413,9 @@ main .contVacio4 {
   main .mainMenus .menuImagen {
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+  footer h3 {
+    margin-top: 30%;
   }
   footer .footerReserva {
     display: flex;
