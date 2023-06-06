@@ -491,6 +491,10 @@ main .contVacio4 {
   main .preguntasFrecuentes .preguntasFrecuentes1, main .preguntasFrecuentes .preguntasFrecuentes2, main .preguntasFrecuentes .preguntasFrecuentes3 {
     padding: 15px 10px 0 10px;
   }
+  footer .footerReserva {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
   footer .footerReserva h3 {
     font-size: 30px;
   }

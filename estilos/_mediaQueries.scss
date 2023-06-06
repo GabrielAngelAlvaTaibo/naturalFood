@@ -161,8 +161,9 @@
             }
         }
     }
-    footer{
+    footer{        
         .footerReserva{
+            height: fit-content;
             h3{
                 font-size: 30px;
             }
